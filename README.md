@@ -24,7 +24,7 @@ settings (e.g. `text-scale-mode-step`) will work the same as before.
 ### Installation
 
 
-### Manual installation
+#### Manual installation
 
 Download the file `text-scale+.el` from this repo and put it somewhere in
 your `load-path`.
@@ -45,32 +45,32 @@ Now update the load path in your `init.el`:
 (add-to-load-path (expand-file-name "~/path/to/text-scale+"))
 ```
 
-### Installation from MELPA
-
-Not yet there.
-
-### Loading
+#### Loading
 
 Add one of the follwing to your `init.el`.
 
-#### With `require`
+##### With `require`
 
 ```elisp
 (with-eval-after-load 'face-remap
   (require 'text-scale+))
 ```
 
-#### With `use-package`
+##### With `use-package`
 
 ```elisp
 (use-package text-scale+
   :after face-remap
 ```
 
+#### Installation from MELPA
+
+Not yet there.
+
 ### Configuration
 
 
-### Variable `text-scale+-faces-list`
+#### Variable `text-scale+-faces-list`
 
 **Default**: `(default fixed-pitch fixed-pitch-serif variable-pitch)`
 
