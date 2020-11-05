@@ -1,4 +1,4 @@
-<a href="https://github.com/madand/text-scale+.el"><img src="https://www.gnu.org/software/emacs/images/emacs.png" alt="Emacs Logo" width="80" height="80" align="right"></a>
+<a href="https://github.com/madand/text-scale-plus.el"><img src="https://www.gnu.org/software/emacs/images/emacs.png" alt="Emacs Logo" width="80" height="80" align="right"></a>
 ## text-scale+.el
 *Hot-patch text-scale-mode with multi-face support*
 
@@ -33,10 +33,10 @@ your `load-path`.
 # Download the latest version of the package
 mkdir -p ~/path/to/text-scale+
 cd ~/path/to/text-scale+
-wget -q 'https://github.com/madand/text-scale+.el/raw/master/text-scale+.el'
+wget -q 'https://github.com/madand/text-scale-plus.el/raw/master/text-scale+.el'
 
 # Or clone the whole repo with Git
-git clone 'https://github.com/madand/text-scale+.el.git' ~/path/to/text-scale+
+git clone 'https://github.com/madand/text-scale-plus.el.git' ~/path/to/text-scale+
 ```
 
 Now update the load path in your `init.el`:
