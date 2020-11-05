@@ -142,8 +142,8 @@ You SHOULD NOT use this mode directly. Instead, call the command
 `text-scale+-install' in order to augment the `text-scale-mode'
 behavior.
 
-This mode makes multiple faces' font size adjustable with
-`text-scale-mode'. See `text-scale+-faces-list'."
+This mode makes multiple faces adjustable with `text-scale-mode'.
+See `text-scale+-faces-list'."
   :lighter (" " text-scale-mode-lighter)
   :require 'face-remap
   :variable text-scale-mode
@@ -163,14 +163,14 @@ This mode makes multiple faces' font size adjustable with
   (force-window-update (current-buffer)))
 
 (defun text-scale+--run-text-scale-mode-hooks ()
-  "Run hooks from `text-scale-mode-hook'."
+  "Run all hooks from `text-scale-mode-hook'."
   (run-hooks text-scale-mode-hook))
 
 ;;;###autoload
 (defun text-scale+-install ()
   "Patch the `text-scale-mode' with multi-face support.
 
-This functions will be called automatically once you've loaded
+This function will be called automatically once you've loaded
 the `text-scale+' package."
   (interactive)
   (add-hook 'text-scale+--text-scale-mode-hook

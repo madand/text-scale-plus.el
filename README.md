@@ -96,7 +96,7 @@ Examples with elisp:
 
 Patch the `text-scale-mode` with multi-face support.
 
-This functions will be called automatically once you've loaded
+This function will be called automatically once you've loaded
 the `text-scale+` package.
 
 #### `(text-scale+-uninstall)`
