@@ -4,7 +4,7 @@
 
 ;; Author: Andriy B. Kmit' <dev@madand.net>
 ;; Keywords: faces, text scale, display, user commands
-;; URL: https://github.com/madand/text-scale+.el
+;; URL: https://github.com/madand/text-scale-plus.el
 ;; Package-Requires: ((emacs "24.4"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -51,10 +51,10 @@
 ;; # Download the latest version of the package
 ;; mkdir -p ~/path/to/text-scale+
 ;; cd ~/path/to/text-scale+
-;; wget -q 'https://github.com/madand/text-scale+.el/raw/master/text-scale+.el'
+;; wget -q 'https://github.com/madand/text-scale-plus.el/raw/master/text-scale+.el'
 
 ;; # Or clone the whole repo with Git
-;; git clone 'https://github.com/madand/text-scale+.el.git' ~/path/to/text-scale+
+;; git clone 'https://github.com/madand/text-scale-plus.el.git' ~/path/to/text-scale+
 ```
 
 ;; Now update the load path in your `init.el':
