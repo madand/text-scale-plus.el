@@ -164,7 +164,7 @@ See `text-scale+-faces-list'."
 
 (defun text-scale+--run-text-scale-mode-hooks ()
   "Run all hooks from `text-scale-mode-hook'."
-  (run-hooks text-scale-mode-hook))
+  (run-hooks 'text-scale-mode-hook))
 
 ;;;###autoload
 (defun text-scale+-install ()
